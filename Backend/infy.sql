@@ -1,0 +1,8 @@
+CREATE TABLE Branch
+{
+BranchID INT IDENTITY( 1,1 ) UNIQUE,
+BranchName CHAR(32) NOT NULL UNIQUE,
+BranchCity CHAR(32) NOT NULL,
+Assets MONEY NOT NULL,
+PRIMARY KEY (BranchID),
+);
